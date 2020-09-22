@@ -4,4 +4,5 @@
 void foobar(int i)
 {
     printf("Printing from lib.so %d", i);
+    sleep(-1);
 }
